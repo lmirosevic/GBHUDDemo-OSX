@@ -8,11 +8,18 @@
 
 #import "AppDelegate.h"
 
+#import <GBHUD/GBHUD.h>
+#import <QuartzCore/QuartzCore.h>
+
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
-    // Insert code here to initialize your application
+- (IBAction)showHUDAction:(id)sender {
+    [[GBHUD sharedHUD] showHUDWithType:GBHUDTypeLoading text:@"Loading..."];
+    [[GBHUD sharedHUD] autoDismissAfterDelay:4];
+}
+
+- (IBAction)closeAction:(id)sender {
+    [[GBHUD sharedHUD] dismissHUD];
 }
 
 @end

@@ -7,15 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A0A378D1740C0510004D345 /* GBHUDResources-OSX.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A37541740B7C90004D345 /* GBHUDResources-OSX.bundle */; };
+		8A0A379B1740CD480004D345 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0A379A1740CD480004D345 /* QuartzCore.framework */; };
 		8A9C89F81740AEA300F49B0E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9C89F71740AEA300F49B0E /* Cocoa.framework */; };
 		8A9C8A021740AEA300F49B0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A9C8A001740AEA300F49B0E /* InfoPlist.strings */; };
 		8A9C8A041740AEA300F49B0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C8A031740AEA300F49B0E /* main.m */; };
 		8A9C8A081740AEA300F49B0E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8A9C8A061740AEA300F49B0E /* Credits.rtf */; };
 		8A9C8A0B1740AEA300F49B0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C8A0A1740AEA300F49B0E /* AppDelegate.m */; };
 		8A9C8A0E1740AEA400F49B0E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A9C8A0C1740AEA400F49B0E /* MainMenu.xib */; };
+		8AC0838E1740AF0300F86A34 /* GBHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9C8A1F1740AEE000F49B0E /* GBHUD.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8A0A37531740B7C90004D345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A9C8A141740AEE000F49B0E /* GBHUD.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8A0A37461740B78D0004D345;
+			remoteInfo = "GBHUDResources-OSX";
+		};
+		8A0A37591740B7E10004D345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A9C8A141740AEE000F49B0E /* GBHUD.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A0A37451740B78D0004D345;
+			remoteInfo = "GBHUDResources-OSX";
+		};
+		8A9C8A1A1740AEE000F49B0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A9C8A141740AEE000F49B0E /* GBHUD.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8A4CE3AA165CB7E30043DF4A;
+			remoteInfo = "GBHUD-iOS";
+		};
+		8A9C8A1C1740AEE000F49B0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A9C8A141740AEE000F49B0E /* GBHUD.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8AA7A5C5165D051C005601FC;
+			remoteInfo = GBHUDResources;
+		};
+		8A9C8A1E1740AEE000F49B0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A9C8A141740AEE000F49B0E /* GBHUD.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8ACDEE88173FCF4A00795FB7;
+			remoteInfo = "GBHUD-OSX";
+		};
+		8AC0838C1740AEFF00F86A34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A9C8A141740AEE000F49B0E /* GBHUD.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ACDEE87173FCF4A00795FB7;
+			remoteInfo = "GBHUD-OSX";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		8A0A379A1740CD480004D345 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8A9C89F41740AEA300F49B0E /* GBHUD Demo Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GBHUD Demo Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9C89F71740AEA300F49B0E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		8A9C89FA1740AEA300F49B0E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -29,6 +78,7 @@
 		8A9C8A091740AEA300F49B0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8A9C8A0A1740AEA300F49B0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8A9C8A0D1740AEA400F49B0E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8A9C8A141740AEE000F49B0E /* GBHUD.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GBHUD.xcodeproj; path = ../GBHUD/GBHUD.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A0A379B1740CD480004D345 /* QuartzCore.framework in Frameworks */,
+				8AC0838E1740AF0300F86A34 /* GBHUD.framework in Frameworks */,
 				8A9C89F81740AEA300F49B0E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +98,7 @@
 		8A9C89EB1740AEA300F49B0E = {
 			isa = PBXGroup;
 			children = (
+				8A9C8A201740AEE600F49B0E /* Library */,
 				8A9C89FD1740AEA300F49B0E /* GBHUD Demo Mac */,
 				8A9C89F61740AEA300F49B0E /* Frameworks */,
 				8A9C89F51740AEA300F49B0E /* Products */,
@@ -63,6 +116,7 @@
 		8A9C89F61740AEA300F49B0E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8A0A379A1740CD480004D345 /* QuartzCore.framework */,
 				8A9C89F71740AEA300F49B0E /* Cocoa.framework */,
 				8A9C89F91740AEA300F49B0E /* Other Frameworks */,
 			);
@@ -102,6 +156,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8A9C8A151740AEE000F49B0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A9C8A1B1740AEE000F49B0E /* libGBHUD.a */,
+				8A9C8A1D1740AEE000F49B0E /* GBHUDResources-iOS.bundle */,
+				8A9C8A1F1740AEE000F49B0E /* GBHUD.framework */,
+				8A0A37541740B7C90004D345 /* GBHUDResources-OSX.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A9C8A201740AEE600F49B0E /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				8A9C8A141740AEE000F49B0E /* GBHUD.xcodeproj */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -116,6 +189,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				8A0A375A1740B7E10004D345 /* PBXTargetDependency */,
+				8AC0838D1740AEFF00F86A34 /* PBXTargetDependency */,
 			);
 			name = "GBHUD Demo Mac";
 			productName = "GBHUD Demo Mac";
@@ -141,6 +216,12 @@
 			mainGroup = 8A9C89EB1740AEA300F49B0E;
 			productRefGroup = 8A9C89F51740AEA300F49B0E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8A9C8A151740AEE000F49B0E /* Products */;
+					ProjectRef = 8A9C8A141740AEE000F49B0E /* GBHUD.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8A9C89F31740AEA300F49B0E /* GBHUD Demo Mac */,
@@ -148,11 +229,43 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		8A0A37541740B7C90004D345 /* GBHUDResources-OSX.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "GBHUDResources-OSX.bundle";
+			remoteRef = 8A0A37531740B7C90004D345 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8A9C8A1B1740AEE000F49B0E /* libGBHUD.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGBHUD.a;
+			remoteRef = 8A9C8A1A1740AEE000F49B0E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8A9C8A1D1740AEE000F49B0E /* GBHUDResources-iOS.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "GBHUDResources-iOS.bundle";
+			remoteRef = 8A9C8A1C1740AEE000F49B0E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8A9C8A1F1740AEE000F49B0E /* GBHUD.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GBHUD.framework;
+			remoteRef = 8A9C8A1E1740AEE000F49B0E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		8A9C89F21740AEA300F49B0E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A0A378D1740C0510004D345 /* GBHUDResources-OSX.bundle in Resources */,
 				8A9C8A021740AEA300F49B0E /* InfoPlist.strings in Resources */,
 				8A9C8A081740AEA300F49B0E /* Credits.rtf in Resources */,
 				8A9C8A0E1740AEA400F49B0E /* MainMenu.xib in Resources */,
@@ -172,6 +285,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A0A375A1740B7E10004D345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GBHUDResources-OSX";
+			targetProxy = 8A0A37591740B7E10004D345 /* PBXContainerItemProxy */;
+		};
+		8AC0838D1740AEFF00F86A34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GBHUD-OSX";
+			targetProxy = 8AC0838C1740AEFF00F86A34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8A9C8A001740AEA300F49B0E /* InfoPlist.strings */ = {
@@ -303,6 +429,7 @@
 				8A9C8A131740AEA400F49B0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
