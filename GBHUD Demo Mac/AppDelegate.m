@@ -13,13 +13,20 @@
 
 @implementation AppDelegate
 
-- (IBAction)showHUDAction:(id)sender {
+- (IBAction)closeAction:(id)sender {
+    [[GBHUD sharedHUD] dismissHUD];
+}
+
+- (IBAction)showHUDInWindowAction:(id)sender {
+    [GBHUD sharedHUD].positioning = GBHUDPositioningCenterInMainWindow;
     [[GBHUD sharedHUD] showHUDWithType:GBHUDTypeLoading text:@"Loading..."];
     [[GBHUD sharedHUD] autoDismissAfterDelay:4];
 }
 
-- (IBAction)closeAction:(id)sender {
-    [[GBHUD sharedHUD] dismissHUD];
+- (IBAction)showHUDOnScreenAction:(id)sender {
+    [GBHUD sharedHUD].positioning = GBHUDPositioningCenterOnMainScreen;
+    [[GBHUD sharedHUD] showHUDWithType:GBHUDTypeLoading text:@"Loading..."];
+    [[GBHUD sharedHUD] autoDismissAfterDelay:4];
 }
 
 @end

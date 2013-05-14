@@ -206,7 +206,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Goonbee;
 			};
-			buildConfigurationList = 8A9C89EF1740AEA300F49B0E /* Build configuration list for PBXProject "GBHUD Demo Mac" */;
+			buildConfigurationList = 8A9C89EF1740AEA300F49B0E /* Build configuration list for PBXProject "GBHUDDemo Mac" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -413,7 +413,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8A9C89EF1740AEA300F49B0E /* Build configuration list for PBXProject "GBHUD Demo Mac" */ = {
+		8A9C89EF1740AEA300F49B0E /* Build configuration list for PBXProject "GBHUDDemo Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A9C8A0F1740AEA400F49B0E /* Debug */,

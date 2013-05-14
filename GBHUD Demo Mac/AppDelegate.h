@@ -12,7 +12,8 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
-- (IBAction)showHUDAction:(id)sender;
+- (IBAction)showHUDOnScreenAction:(id)sender;
+- (IBAction)showHUDInWindowAction:(id)sender;
 - (IBAction)closeAction:(id)sender;
 
 @end
