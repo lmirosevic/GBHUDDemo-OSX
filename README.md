@@ -3,6 +3,8 @@ GBHUDDemo
 
 Demo project for GBHUD
 
+Just run `pod install` to install the GBHUD dependency
+
 Library
 ------------
 
